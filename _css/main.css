@@ -1,0 +1,40 @@
+<style>
+	.mainWrapper{
+		margin-bottom: 50px;
+		min-height: 500px;
+		padding-top: 50px;
+	}
+	
+	.stdBtn{
+	  padding: 5px;
+	  border-radius: 6px;
+	  width: 100px;
+	  background-color: #FFFFFF;
+	  border: 0px;
+	  color: #3b5680;
+	  font-weight: bold;
+	  font-size: 14px;	
+	  cursor: pointer;
+	}
+	
+	.stdBtn:hover{
+		background-color: #e6e6e7	;
+	}
+	
+	.constructionMsg{
+		color: yellow;
+		background-color: black;
+		font-size: 40px;
+		padding: 20px;	
+		text-align: center;
+	}
+	
+	.link a:visited{
+		color: #FFFFFF;
+	}
+	
+	.link a{
+		color: #FFFFFF;
+		text-decoration: none;	
+	}
+</style>
