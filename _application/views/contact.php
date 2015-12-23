@@ -2,7 +2,13 @@
     <head>
         <?php $this->render('common/meta'); ?>
     </head>
+    <style>
+		#contact{
+			margin-top: 30px;	
+		}
+	</style>
     <body>
+    <?php $this->render('common/header');  ?>
    <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -56,6 +62,6 @@
             </div>
         </div>
     </section>
-	
+	<?php $this->render('common/footer'); ?>
     </body>
 </html>

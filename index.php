@@ -3,11 +3,18 @@
 	define('DS', DIRECTORY_SEPARATOR);
 	define('ROOT', dirname(dirname(__FILE__)));
 	define('DEVELOPMENT_ENVIRONMENT', false);
-	$url = $_GET["url"];
 	require_once('_core' . DS . 'bootstrap.php');
 	require_once('_config' . DS . 'config.php');
 	include('_css/main.css');
 	$construction = false;
+	
+	if(isset($_GET["url"])) {
+		$url = $_GET["url"];	
+	}else{
+		$url = "";	
+	}
+	
+	
 	try{
 		//$sqlConnect = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	}catch(exception $e){

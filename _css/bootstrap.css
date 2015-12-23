@@ -1965,7 +1965,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-md-4 {
-    width: 33.33333333%;
+    width: 100%;
   }
   .col-md-3 {
     width: 25%;
@@ -4563,7 +4563,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #18bc9c;
+  color: rgb(253, 97, 235);
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,

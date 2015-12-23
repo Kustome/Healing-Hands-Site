@@ -3,6 +3,8 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under the MIT license
  */
+ 
+ $('body').off('.data-api')
 
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')

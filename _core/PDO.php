@@ -1,6 +1,5 @@
 <?php
-	//require_once('_config' . DS . 'config.php');
-	require_once('../_config/config.php');
+	require_once('/_config/config.php');
 	
 	class SQLConn{
 		

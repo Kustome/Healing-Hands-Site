@@ -13,7 +13,8 @@
 					font-size: 30px;
 					margin-left: 2%;
 					margin: 0 auto;
-					width: 600px;s	
+					width: 600px;
+					margin-top: 5%;
 				}
 				
 				.mainWrapper{
