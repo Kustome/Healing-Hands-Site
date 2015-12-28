@@ -16,6 +16,7 @@
 					margin-bottom: 50px;
 					min-height: 500px;
 					padding-top: 50px;	
+					
 				}
 				
 			</style>
